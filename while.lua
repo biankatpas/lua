@@ -1,3 +1,5 @@
+#!/usr/bin/lua
+
 local vPar = 0 -- Declara-se uma variavel local de nome "vPar"
 
 print("Numeros pares de 0 a 100") -- Mostra o texto na tela

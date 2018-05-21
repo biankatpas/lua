@@ -1,5 +1,3 @@
-#!/usr/bin/lua
-
 local a = 3
 local b = 2
 local r = 0

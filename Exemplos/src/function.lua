@@ -1,5 +1,3 @@
-#!/usr/bin/lua
-
 idade = 20 -- Declara a variavel global "idade" e lhe atribui o valor 20
 
 function mostra_idade() -- Cria a função "mostra_idade"
@@ -24,5 +22,8 @@ function soma(a,b) -- Cria a função soma que recebe como parametro as variavei
 end -- Finaliza a função "soma"
 
 local soma = soma(a,b) -- Variavel local soma recebe o retorno da função soma
-
 print(soma) -- Mostra a variavel "soma" na tela
+
+m = function (a,b) return a*b end
+--res = m(1,2)
+print(m(1,20))
